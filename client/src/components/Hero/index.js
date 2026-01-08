@@ -4,8 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './Hero.css';
 
-const API_URL = "http://localhost:3002/api/user";
-const DOWNLOAD_URL = "http://localhost:3002/api/resume/download";
+const API_URL = "https://prasanna-portfolio-admin.vercel.app/api/user";
+const DOWNLOAD_URL = "https://prasanna-portfolio-admin.vercel.app/api/resume/download";
 
 const Hero = () => {
   const [data, setData] = useState({
