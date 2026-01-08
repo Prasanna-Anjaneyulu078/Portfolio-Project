@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './Projects.css';
 
-const API_URL = 'http://localhost:3002/api/projects';
+const API_URL = 'https://prasanna-portfolio-admin.vercel.app/api/projects';
 
 const Projects = () => {
   const [filter, setFilter] = useState('All');
