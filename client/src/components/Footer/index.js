@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './Footer.css';
 
-const API_URL = 'http://localhost:3002/api/user';
+const API_URL = 'hhttps://prasanna-portfolio-admin.vercel.app/api/user';
 
 const Footer = () => {
   const [name, setName] = useState('Prasanna Anjaneyulu'); // Fallback name
