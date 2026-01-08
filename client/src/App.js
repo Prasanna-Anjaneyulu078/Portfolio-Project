@@ -14,7 +14,7 @@ const App = () => {
   useEffect(() => {
     const fetchBrandData = async () => {
       try {
-        const response = await axios.get('http://localhost:3002/api/user');
+        const response = await axios.get('https://prasanna-portfolio-admin.vercel.app/api/user');
         const userData = response.data;
 
         if (userData) {
