@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './Skills.css';
 
-const API_BASE = 'http://localhost:3002/api';
+const API_BASE = 'https://prasanna-portfolio-admin.vercel.app/api';
 
 const Skills = () => {
   const [skillCategories, setSkillCategories] = useState([]);
