@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './About.css';
 
-const API_URL = 'http://localhost:3002/api'
+const API_URL = 'https://prasanna-portfolio-admin.vercel.app/api'
 
 const About = () => {
   const [data, setData] = useState({
